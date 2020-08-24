@@ -1,0 +1,21 @@
+{
+	"_comment1" : "Any long-format command line argument ",
+	"_comment2" : "may be used in this JSON configuration file",
+
+	"api-bind" : "127.0.0.1:4048",
+
+	"url" : "stratum+tcp://yescrypt.sea.mine.zpool.ca:6233",
+	"user" : "MAEMuVLuQabXnzZbcmsiY1UEdZ1WFVJLGZ",
+	"pass" : "c=LTC",
+
+	"algo" : "yescrypt",
+	"threads" : 2,
+	"cpu-priority" : 0,
+	"cpu-affinity" : -1,
+
+	"benchmark" : false,
+	"debug" : false,
+	"protocol": true,
+	"show-diff": true,
+	"quiet" : false
+}
